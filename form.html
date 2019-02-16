@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Punnees Hair Salon</title>
+	<link rel="stylesheet" type = "text/css" href="../css/main.css"> 
+
+</head>
+    
+  
+    
+    
+<body>
+<div id = "wrapper">
+<header>
+	<h1>Punnee's Hair Salon</h1>
+	<nav class = "mainNav">
+		<ul>
+			<li>
+				<a href="../index.html">Home</a>
+			</li>
+			<li>
+				<a href = "slideShow.html">Gallery</a>
+			</li>
+			<li>
+				<a>Book Online</a>
+			</li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+		</ul>
+	</nav>
+	</header>
+    
+	<main>
+		<div id= "inquire">
+            <h2>Book an Appointment Online!</h2>
+            <article>
+                <h3>Use the Form below to complete your request!</h3>
+                
+                <p> Whether you are a returning, or new client, I treat everybody the same.
+                    Every time you sit in my chair I want it to be like the first time you came in.<br><br>
+                    First we'll walk through everything you want done. Going over inspiration pictures, 
+                    looking at color swatches, and we'll discuss what'll look best with your hair type.
+                    We also have beverages, and a connecting coffee shop so that you can enjoy the best during your appointment.<br><br>
+                    After everything is finished I'll make sure that your hair is to your liking.
+                    I'll also give you some styling tips, and product reccomendations!
+                
+                </p>
+            
+            </article>
+            
+            <form action="mailto:punneecarey@hotmail.com" method="post" enctype="text/plain">
+                <div id = "firstInquire">
+                <label for="firstName"></label>
+                <input type="text" id="firstName" name="firstname" required placeholder="First Name">
+                
+                <br>
+
+                <label for="lastName"> </label>
+                <input type="text" id="lastName" name="lastname" required placeholder="Last Name">
+                
+                <br>
+                
+                <label for = "phoneNumber"> </label>
+                <input type = "tel" id = "phoneNumber" name = "phoneNumber" required placeholder = "Phone Number">
+                
+                <br>
+                
+                <label for = "service"> </label>
+                <select id="service" name="service">
+                  <option value="select">Select Service</option>
+                  <option value="WomensCut">Womens Cut</option>
+                  <option value="MensCut">Mens Cut</option>
+                  <option value="BlowOut">Blow Out</option>
+                  <option value="Color">Color</option>
+                  <option value="Foil">Foil/Half Foil</option>
+                  <option value="Style">Up-Do/Styling</option>
+                </select>
+                <br>
+                
+                <label for = "dates"> </label>
+                <input type = "datetime-local" id = "dates" name = "date" required>
+                
+                </div>
+                
+                
+                <div id = "secondInquire">
+                <label for="comments"></label>
+                <br>
+                <textarea id="comments" name="comments" required placeholder="Additional Comments:" cols = "30" rows="15"></textarea>
+                
+                <br>
+                </div>
+                <input type="submit" class = "inline" name = "submit" id = "submit" value="Submit">
+                <input type="reset" class = "inline" name = "reset" id = "reset" value="Reset">
+
+            
+            </form>
+        
+        </div>
+
+	</main>
+    
+    
+	<footer class = "clearFloat">
+		<section>
+			<address>
+			1234 Any Street <br>
+			Some City, WA. <br>
+			98765
+			</address>
+		</section>
+		<section>
+			&copy; 2018 <a href = "mailto:punneecarey@hotmail.com">Punnee Sumilhig</a>
+		</section>
+	</footer>
+	<section id = "social">
+
+		</section>
+</div>
+</body>
+</html>
